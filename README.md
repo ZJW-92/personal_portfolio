@@ -1,13 +1,11 @@
 # Personal portfolio website
 
-This is my personal website of introducing my projects and me
-
+This is my personal portfolio of introducing myself, my backend, projects and technologies I have used in the past year 2022. 
 
 ## Tech stack 
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) 
+- React.js
+- Next.js 
+- React icons
+- styled-components
 
-React icons
-
-Next.js 
-
-styled-components
+## Deploy 
