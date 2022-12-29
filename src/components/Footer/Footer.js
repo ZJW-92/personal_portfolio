@@ -1,9 +1,6 @@
 import React from 'react';
-import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
-import { SiGmail } from 'react-icons/si';
-import { SocialIcons } from '../Header/HeaderStyles';
 import { GiDwarfFace } from 'react-icons/gi';
-import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
+import { FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Span } from './FooterStyles';
 import Link from 'next/link';
 
 const Footer = () => {
@@ -11,9 +8,8 @@ const Footer = () => {
    <FooterWrapper>
     <LinkList>
     <Link href="/">
-  
       <a style ={ { display:"flex", alignItems:"center", color:"#e6c18f", marginBottom:'20px'}}>
-      <GiDwarfFace size= "4rem" /> <span>Zhijie</span>
+      <GiDwarfFace size= "4rem" /><Span>Zhijie</Span>
       </a>
     </Link>
     <LinkColumn>  
