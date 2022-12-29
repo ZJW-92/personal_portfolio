@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Section = styled.section`
   display: ${(props) => props.grid ? "grid" : "flex" };
   flex-direction: ${(props) => props.row ? "row" : "column" };
-  padding: ${(props) => props.nopadding ? "0" : "32px 48px 0" } ;
+  padding: ${(props) => props.nopadding ? "0" : "28px 48px 0" } ;
   margin: 0 auto;
   max-width: 1040px;
   box-sizing: content-box;
@@ -78,8 +78,8 @@ export const SectionText = styled.p`
 
 export const SectionDivider = styled.div`
 
-  width: 64px;
-  height: 6px;
+  width: 250px;
+  height: 10px;
   border-radius: 10px;
   background-color: #fff;
   background: ${(props) => props.colorAlt ? 
