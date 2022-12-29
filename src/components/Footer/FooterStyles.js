@@ -13,6 +13,9 @@ export const FooterWrapper = styled.section`
     width: calc(100vw - 32px);
   }
 `
+export const Span = styled.span`
+  font-size: 3rem; 
+`;
 
 export const LinkItem = styled.a`
 	font-size: 18px;
