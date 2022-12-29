@@ -3,7 +3,6 @@ import React from 'react';
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 import { GiDwarfFace } from 'react-icons/gi';
 import { SiGmail } from 'react-icons/si';
-
 import { Container, Span, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
 
 const Header = () =>  (
@@ -11,7 +10,7 @@ const Header = () =>  (
   <Div1>
     <Link href="/">
       <a style ={ { display:"flex", alignItems:"center", color:"#e6c18f", marginBottom:'20px'}}>
-      <GiDwarfFace size= "4rem" /> <Span>Portfolio</Span>
+      <GiDwarfFace size= "4rem" /> <Span>Zhijie</Span>
       </a>
     </Link>
   </Div1>
