@@ -35,6 +35,8 @@ export const Div2 = styled.div`
   grid-area: 1/ 2 / 2 / 4;
   display: flex;
   justify-content: space-around;
+
+
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-area: 2 / 2 / 3 / 5;
   }
@@ -56,20 +58,21 @@ export const NavLink = styled.a`
   line-height: 32px;
   color: #e6c18f;
   transition: 0.4s ease;
+  position: relative;
+  left: 0;
+
   &:hover {
    color: #ffffffbf;
     opacity: 1;
     cursor: pointer;
+    left: 6px;
   }
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: 0.5rem;
   }
 `;
 
-
-
 // Social Icons 
-
 export const SocialIcons = styled.a`
 transition: 0.3s ease;
 color: #e6c18f;
