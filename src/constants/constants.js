@@ -12,7 +12,7 @@ export const projects = [
     description:"Basic web automation testings using Selenium Library and Python in Robot Framework. It includes various test cases and connect the repository with Jenkins for CI. In Jenkins, implement basic Jenkins pipeline script and build and implement basic maven project, build and test. ",
     image: '/images/2.png',
     tags: ['Robot Framework', 'Pycharm', 'Selenium', 'Jenkins'],
-    visit: 'https://github.com/ZJW-92/RobotFramework_exercisem',
+    visit: 'https://github.com/ZJW-92/RobotFramework_exercise',
     id: 1,
   },
   {
