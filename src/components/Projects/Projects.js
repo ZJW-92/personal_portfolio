@@ -3,7 +3,6 @@ import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag,
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
 
-
 const Projects = () => (
    <Section no padding id= "projects">
   <SectionDivider />
@@ -29,11 +28,12 @@ const Projects = () => (
             </div>
             <UtilityList>
               <ExternalLinks href={visit}>View code</ExternalLinks>
+             
             </UtilityList>
-
         </BlogCard>
       ))}
     </GridContainer>
+    <></>
  
 
    </Section>
