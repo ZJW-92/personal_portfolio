@@ -8,7 +8,7 @@ const Hero = (props) => (
    <LeftSection> 
    <SectionTitle main center>
      Welcome To Zhijie's <br />
-      Personal Portfolio 👋
+     Portfolio 👋
     </SectionTitle>
     <SectionText>  
     Born in Shanghai (上海) and study in Gothenburg, Sweden🇸🇪. <br/>
