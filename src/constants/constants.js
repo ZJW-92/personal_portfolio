@@ -1,11 +1,20 @@
 export const projects = [
   {
+    title: 'Shanghai kitchen UI/UX application',
+    description: "A modern and fully responsive UI/UX restaurant menu application with react-icons and CSS. ",
+      image: '/images/0.png',
+      tags: ['React', 'React-icons', 'CSS'],
+    visit: 'https://github.com/ZJW-92/Gourment_Shanghai_kitchen',
+    id: 0,
+  },
+
+  {
     title: 'Full-stack MERN project',
     description: "A fullstack MERN application combined with Mongodb, ExpressJS, React and Node.js application to post a memory, edit, delete and count thumb up button.",
       image: '/images/1.png',
       tags: ['Mongodb', 'Express', 'React', 'Node.js'],
     visit: 'https://github.com/ZJW-92/FullStack_project',
-    id: 0,
+    id: 1,
   },
   {
     title: 'Robot Framework Automation exercise',
@@ -13,7 +22,7 @@ export const projects = [
     image: '/images/2.png',
     tags: ['Robot Framework', 'Pycharm', 'Selenium', 'Jenkins'],
     visit: 'https://github.com/ZJW-92/RobotFramework_exercise',
-    id: 1,
+    id: 2,
   },
   {
     title: 'Big data COVID-19 analysis',
@@ -21,7 +30,7 @@ export const projects = [
       image: '/images/3.png',
       tags: ['Jupyter notebook', 'pandas', 'pyecharts'],
     visit: 'https://github.com/ZJW-92/bigData_COVID_Analysis',
-    id: 2,
+    id: 3,
   },
   {
     title: ' Deep learning stock price prediction ',
@@ -29,9 +38,18 @@ export const projects = [
     image: '/images/4.png',
     tags: ['Anaconda', 'Tensorflow','Keras', 'Python', 'Django'],
     visit: 'https://github.com/ZJW-92/Stoink_stock_price_prediction',
-    id: 3,
+    id: 4,
+  },
+  {
+    title: ' More Projects ',
+    description: " View more projects on GitHub. ",
+    image: '/images/5.png',
+    tags: ['Git','Vue', 'Django', 'Python'],
+    visit: 'https://github.com/ZJW-92?tab=repositories',
+    id: 5,
   },
 ];
+
 
 export const TimeLineData = [
   { year: 2019, text: 'Started my journey of Software Engineering and Management bachelor study', },
