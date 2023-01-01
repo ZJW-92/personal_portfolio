@@ -18,7 +18,7 @@ export const Span = styled.span`
 `;
 
 export const LinkItem = styled.a`
-	font-size: 18px;
+	font-size: 2rem;
 	line-height: 30px;
 	color: #e6c18f;
 	margin-bottom: 16px;
