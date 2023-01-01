@@ -1,11 +1,20 @@
 export const projects = [
   {
+    title: 'Portfolio website ',
+    description: " My portfolio of my resume of introducing myself, my background, projects and technologies I have learned and used in the past 2022.",
+    image: '/images/5.png',
+    tags: ['React.js', 'Next.js', 'React-icons', 'styled components'],
+    visit: 'https://github.com/ZJW-92/personal_portfolio',
+    id: 0,
+  },
+  
+  {
     title: 'Shanghai kitchen UI/UX application',
     description: "A modern and fully responsive UI/UX restaurant menu application with react-icons and CSS. ",
       image: '/images/0.png',
       tags: ['React', 'React-icons', 'CSS'],
     visit: 'https://github.com/ZJW-92/Gourment_Shanghai_kitchen',
-    id: 0,
+    id: 1,
   },
 
   {
@@ -14,7 +23,7 @@ export const projects = [
       image: '/images/1.png',
       tags: ['Mongodb', 'Express', 'React', 'Node.js'],
     visit: 'https://github.com/ZJW-92/FullStack_project',
-    id: 1,
+    id: 2,
   },
   {
     title: 'Robot Framework Automation exercise',
@@ -22,7 +31,7 @@ export const projects = [
     image: '/images/2.png',
     tags: ['Robot Framework', 'Pycharm', 'Selenium', 'Jenkins'],
     visit: 'https://github.com/ZJW-92/RobotFramework_exercise',
-    id: 2,
+    id: 3,
   },
   {
     title: 'Big data COVID-19 analysis',
@@ -30,7 +39,7 @@ export const projects = [
       image: '/images/3.png',
       tags: ['Jupyter notebook', 'pandas', 'pyecharts'],
     visit: 'https://github.com/ZJW-92/bigData_COVID_Analysis',
-    id: 3,
+    id: 4,
   },
   {
     title: ' Deep learning stock price prediction ',
@@ -38,16 +47,9 @@ export const projects = [
     image: '/images/4.png',
     tags: ['Anaconda', 'Tensorflow','Keras', 'Python', 'Django'],
     visit: 'https://github.com/ZJW-92/Stoink_stock_price_prediction',
-    id: 4,
-  },
-  {
-    title: ' More Projects ',
-    description: " View more projects on GitHub. ",
-    image: '/images/5.png',
-    tags: ['Git','Vue', 'Django', 'Python'],
-    visit: 'https://github.com/ZJW-92?tab=repositories',
     id: 5,
   },
+  
 ];
 
 
