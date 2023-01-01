@@ -1,4 +1,4 @@
-#  👉 [Personal portfolio website]()
+#  👉 [Personal portfolio website](https://zhijiewei.netlify.app/)
 
 This is my personal portfolio of my resume of introducing myself, my background, projects and technologies I have used in the past year 2022. 
 
@@ -11,4 +11,7 @@ This is my personal portfolio of my resume of introducing myself, my background,
 - Material UI
 
 ## Setup
-Run `npm install @mui/material next react react-icons styled-components && npm run dev`
+Run `npm i && npm run dev`
+
+## Build 
+Run `npm run build`
