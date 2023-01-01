@@ -31,7 +31,7 @@ const Header = () =>  (
       </Link>
     </li>
     <li>
-      <Link href="cv_eng_Zhijie.pdf" download= "">
+      <Link href="cv_eng_Zhijie.pdf" download= "cv_eng_Zhijie.pdf">
         <NavLink> Resume </NavLink>
       </Link>
     </li>
