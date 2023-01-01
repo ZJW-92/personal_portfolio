@@ -35,12 +35,13 @@ export const TitleContent = styled.div`
   text-align: center;
   z-index: 20;
   width: 100%;
+  font-size: 2rem
 
 `;
 
 
 export const HeaderThree = styled.h3`
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 2px;
   color: #9cc9e3;
   padding: .5rem 0;
@@ -88,9 +89,10 @@ export const UtilityList = styled.ul`
   margin: 2.5rem 0;
 `;
 
+
 export const ExternalLinks = styled.a`
 color: #e6c18f;
-font-size: 1.6rem;
+font-size: 2rem;
 padding:1rem 1.5rem;
 background: black;
 border-radius: 15px;
@@ -106,6 +108,7 @@ display: flex;
 justify-content: space-around;
 padding: 2rem;
 `
+
 export const Tag = styled.li`
 color: #d8bfbf;
 font-size: 1.5rem;
