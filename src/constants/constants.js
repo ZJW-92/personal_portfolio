@@ -1,4 +1,5 @@
 export const projects = [
+  
   {
     title: 'Portfolio website ',
     description: " My portfolio of my resume of introducing myself, my background, projects and technologies I have learned and used in the past 2022.",
@@ -8,22 +9,32 @@ export const projects = [
     id: 0,
   },
   
+
+  {
+    title: 'Keep Fit fitness application ',
+    description: " A fitness training application that help you browse and workout 1000+ exercises and more.",
+    image: '/images/6.png',
+    tags: ['React.js', 'React-icons', 'material-UI', 'Rapid API'],
+    visit: 'https://github.com/ZJW-92/keep_fit_fitness_app',
+    id: 1,
+  },
+
   {
     title: 'Shanghai kitchen UI/UX application',
     description: "A modern and fully responsive UI/UX restaurant menu application with react-icons and CSS. ",
       image: '/images/0.png',
       tags: ['React', 'React-icons', 'CSS'],
     visit: 'https://github.com/ZJW-92/Gourment_Shanghai_kitchen',
-    id: 1,
+    id: 2,
   },
 
   {
     title: 'Full-stack MERN project',
     description: "A fullstack MERN application combined with Mongodb, ExpressJS, React and Node.js application to post a memory, edit, delete and count thumb up button.",
-      image: '/images/1.png',
-      tags: ['Mongodb', 'Express', 'React', 'Node.js'],
+    image: '/images/1.png',
+    tags: ['Mongodb', 'Express', 'React', 'Node.js'],
     visit: 'https://github.com/ZJW-92/FullStack_project',
-    id: 2,
+    id: 3,
   },
   {
     title: 'Robot Framework Automation exercise',
@@ -31,25 +42,17 @@ export const projects = [
     image: '/images/2.png',
     tags: ['Robot Framework', 'Pycharm', 'Selenium', 'Jenkins'],
     visit: 'https://github.com/ZJW-92/RobotFramework_exercise',
-    id: 3,
+    id: 4,
   },
   {
     title: 'Big data COVID-19 analysis',
     description: "Big data analysis of COVID-19 epidemic worldwide through daily data which ranged from January 2020 to March 2021 from Johns Hopkins University. It visualizes how much and fast this epidemic spreads around the world. ",
-      image: '/images/3.png',
-      tags: ['Jupyter notebook', 'pandas', 'pyecharts'],
+    image: '/images/3.png',
+    tags: ['Jupyter notebook', 'pandas', 'pyecharts'],
     visit: 'https://github.com/ZJW-92/bigData_COVID_Analysis',
-    id: 4,
-  },
-  {
-    title: ' Deep learning stock price prediction ',
-    description: "A system that uses deep neural network (DNN) model to predict the price increase or decrease of one or more stocks for the next month.",
-    image: '/images/4.png',
-    tags: ['Anaconda', 'Tensorflow','Keras', 'Python', 'Django'],
-    visit: 'https://github.com/ZJW-92/Stoink_stock_price_prediction',
     id: 5,
   },
-  
+
 ];
 
 
