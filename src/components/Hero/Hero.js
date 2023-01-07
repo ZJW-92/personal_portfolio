@@ -8,7 +8,8 @@ const Hero = (props) => (
    <LeftSection> 
    <SectionTitle main center>
      Welcome To Zhijie's <br />
-     Portfolio 👋
+     Portfolio 
+     <img src="https://user-images.githubusercontent.com/42378118/110234147-e3259600-7f4e-11eb-95be-0c4047144dea.gif" width="70" />
     </SectionTitle>
     <SectionText>  
     Born in Shanghai (上海) and study in Gothenburg, Sweden🇸🇪. <br/>
