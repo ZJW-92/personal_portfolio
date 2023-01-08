@@ -12,7 +12,7 @@ const Technologies = () =>  (
   <br/>
   <SectionTitle> Technologies</SectionTitle>
   <SectionText> I have great passion for software development.
-   Also, I am interested with Quality Assurance, Test Automation, DevOps, Machine Learning, Cloud Engineering and Business Intelligence. 
+   Also, I am interested with Quality Assurance, Test Automation, DevOps, Machine Learning and Business Intelligence. 
    </SectionText>
    <List>
     <ListItem>
@@ -20,7 +20,7 @@ const Technologies = () =>  (
       <ListContainer>
         <ListTitle> Frontend  </ListTitle>
         <ListParagraph>
-         Html, CSS, JavaScript, React.js, Bootstrap, Vue.js
+         Html5, CSS, JavaScript, React.js, Bootstrap, Next.js, Material-UI, TailwindCSS, styled-components, Netlify
         </ListParagraph>
       </ListContainer>
     </ListItem>
@@ -29,7 +29,7 @@ const Technologies = () =>  (
       <ListContainer>
         <ListTitle> Backend  </ListTitle>
         <ListParagraph>
-          Express.js, Node.js, npm, Django, mongodb, postgres
+          Express.js, Node.js, npm, Django, mongodb, graphQL, hyGraph
         </ListParagraph>
       </ListContainer>
     </ListItem>
