@@ -9,6 +9,16 @@ export const projects = [
     id: 0,
   },
   
+  {
+    title: 'ModernApp application ',
+    description: "ModernApp is a full-fledged, cool-designed landing page of showcasing one software company's webpage.",
+    image: '/images/7.png',
+    tags: ['React.js', 'React-bootstrap', 'styled-components', 'React-icons'],
+    visit: 'https://github.com/ZJW-92/modernApp',
+    id: 1,
+  },
+
+
 
   {
     title: 'Keep Fit fitness application ',
@@ -16,7 +26,7 @@ export const projects = [
     image: '/images/6.png',
     tags: ['React.js', 'React-icons', 'material-UI', 'Rapid API'],
     visit: 'https://github.com/ZJW-92/keep_fit_fitness_app',
-    id: 1,
+    id: 2,
   },
 
   {
@@ -25,7 +35,7 @@ export const projects = [
       image: '/images/0.png',
       tags: ['React', 'React-icons', 'CSS'],
     visit: 'https://github.com/ZJW-92/Gourment_Shanghai_kitchen',
-    id: 2,
+    id: 3,
   },
 
   {
@@ -34,7 +44,7 @@ export const projects = [
     image: '/images/1.png',
     tags: ['Mongodb', 'Express', 'React', 'Node.js'],
     visit: 'https://github.com/ZJW-92/FullStack_project',
-    id: 3,
+    id: 4,
   },
   {
     title: 'Robot Framework Automation exercise',
@@ -42,7 +52,7 @@ export const projects = [
     image: '/images/2.png',
     tags: ['Robot Framework', 'Pycharm', 'Selenium', 'Jenkins'],
     visit: 'https://github.com/ZJW-92/RobotFramework_exercise',
-    id: 4,
+    id: 5,
   },
   {
     title: 'Big data COVID-19 analysis',
@@ -50,7 +60,7 @@ export const projects = [
     image: '/images/3.png',
     tags: ['Jupyter notebook', 'pandas', 'pyecharts'],
     visit: 'https://github.com/ZJW-92/bigData_COVID_Analysis',
-    id: 5,
+    id: 6,
   },
 
 ];
