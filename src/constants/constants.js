@@ -6,16 +6,29 @@ export const projects = [
     image: '/images/5.png',
     tags: ['React.js', 'Next.js', 'React-icons', 'styled components'],
     visit: 'https://github.com/ZJW-92/personal_portfolio',
+    demo: 'https://zhijiewei.netlify.app/',
     id: 0,
   },
   
+  {
+    title: 'Optimal Recipe Blog',
+    description: "A Content Management System (CMS) of showcasing different kinds of Asian cuisine with full markdown recipes, author information and comments.",
+    image: '/images/8.png',
+    tags: ['React.js', 'Next.js', 'graphQL', 'TailwindCSS','Versel'],
+    visit: 'https://github.com/ZJW-92/cms_blog_app',
+    demo: 'https://optimal-recipe-blog.vercel.app/',
+    id: 1,
+  },
+
+
   {
     title: 'ModernApp application ',
     description: "ModernApp is a full-fledged, cool-designed landing page of showcasing one software company's webpage.",
     image: '/images/7.png',
     tags: ['React.js', 'React-bootstrap', 'styled-components', 'React-icons'],
     visit: 'https://github.com/ZJW-92/modernApp',
-    id: 1,
+    demo: 'https://modern-mobile-app.netlify.app/',
+    id: 2,
   },
 
 
@@ -26,16 +39,19 @@ export const projects = [
     image: '/images/6.png',
     tags: ['React.js', 'React-icons', 'material-UI', 'Rapid API'],
     visit: 'https://github.com/ZJW-92/keep_fit_fitness_app',
-    id: 2,
+    demo: 'https://keepfit-fitness.netlify.app/',
+    id: 3,
   },
 
   {
     title: 'Shanghai kitchen UI/UX application',
     description: "A modern and fully responsive UI/UX restaurant menu application with react-icons and CSS. ",
-      image: '/images/0.png',
-      tags: ['React', 'React-icons', 'CSS'],
+    image: '/images/0.png',
+    tags: ['React', 'React-icons', 'CSS'],
     visit: 'https://github.com/ZJW-92/Gourment_Shanghai_kitchen',
+    demo: 'https://shanghai-kitchen.netlify.app/',
     id: 3,
+    id: 4,
   },
 
   {
@@ -44,7 +60,8 @@ export const projects = [
     image: '/images/1.png',
     tags: ['Mongodb', 'Express', 'React', 'Node.js'],
     visit: 'https://github.com/ZJW-92/FullStack_project',
-    id: 4,
+    demo: 'https://memories-fullstackapp.netlify.app/',
+    id: 5,
   },
   {
     title: 'Robot Framework Automation exercise',
@@ -52,7 +69,8 @@ export const projects = [
     image: '/images/2.png',
     tags: ['Robot Framework', 'Pycharm', 'Selenium', 'Jenkins'],
     visit: 'https://github.com/ZJW-92/RobotFramework_exercise',
-    id: 5,
+    demo: 'https://github.com/ZJW-92/RobotFramework_exercise',
+    id: 6,
   },
   {
     title: 'Big data COVID-19 analysis',
@@ -60,11 +78,11 @@ export const projects = [
     image: '/images/3.png',
     tags: ['Jupyter notebook', 'pandas', 'pyecharts'],
     visit: 'https://github.com/ZJW-92/bigData_COVID_Analysis',
-    id: 6,
+    demo: 'https://github.com/ZJW-92/bigData_COVID_Analysis',
+    id: 7,
   },
 
 ];
-
 
 export const TimeLineData = [
   { year: 2019, text: 'Started my journey of Software Engineering and Management bachelor study', },
