@@ -1,4 +1,4 @@
-#  👉 [Personal portfolio website](https://zhijiewei.netlify.app/) 
+#  Demo at 👉 [Portfolio](https://zhijiewei.netlify.app/) 
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/d81da10b-ad30-4e59-a7b8-4d682407ffa7/deploy-status)](https://app.netlify.com/sites/zhijiewei/deploys)
 
