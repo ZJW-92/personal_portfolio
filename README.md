@@ -11,7 +11,7 @@ This is my personal portfolio of my resume of introducing myself, my background,
 - ***[Next.js](https://nextjs.org/)***: A React framework 
 - ***[React icons](https://react-icons.github.io/react-icons/)***: A small library that helps you add icons to your React apps
 - ***[styled-components](https://styled-components.com/)***: A popular library that is used to style React applications
-- Material UI
+- ***[Material UI](https://mui.com/)***: An open-source React component library that implements Google's Material Design
 
 ## Setup
 Run `npm i && npm run dev`
