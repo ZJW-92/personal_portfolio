@@ -7,8 +7,8 @@ This is my personal portfolio of my resume of introducing myself, my background,
 
 
 ## Tech stack 
-- React.js
-- Next.js 
+- ***[React.js](https://reactjs.org/)***: A JavaScript library for building user interfaces
+- ***[Next.js](https://nextjs.org/)***: A React framework 
 - React icons
 - styled-components
 - Material UI
