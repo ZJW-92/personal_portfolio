@@ -94,7 +94,7 @@ export const projects = [
   
   {
     title: 'NeuroDrive Smart Car',
-    description: "A software that allows end users to remotely control a smart car with the use of an EEG-headset and a mobile app. Moreover, the smart car can avoid obstacles in front and behind it by turning to the opposite direction.",
+    description: "A software that allows end users to remotely control a smart car with the use of an EEG-headset and a mobile app. Moreover, the smart car can avoid obstacles in front and behind it by turning in the opposite direction.",
     image: '/images/3.png',
     tags: ['C++', 'Java', 'Travis CI','Arduino','SmartCar shield'],
     visit: 'https://github.com/ZJW-92/DIT112-V20-Miniprojekt-Systemutveckling/blob/main/README.md',
