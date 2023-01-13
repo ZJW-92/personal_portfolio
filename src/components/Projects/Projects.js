@@ -5,7 +5,8 @@ import { projects } from '../../constants/constants';
 
 const Projects = () => (
    <Section no padding id= "projects">
-  <SectionDivider />
+  {/* <SectionDivider /> */}
+  <img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="180%"/>
     <SectionTitle main>Projects </SectionTitle>
     <GridContainer>
       {projects.map (({id, image, title, description, tags, visit, demo}) =>(

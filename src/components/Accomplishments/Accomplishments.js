@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
+import { Section, SectionTitle } from '../../styles/GlobalComponents';
 import { Box, Boxes, BoxNum, BoxText } from './AccomplishmentsStyles';
 
 const data = [
@@ -12,7 +12,9 @@ const data = [
 const Accomplishments = () => (
 
  <Section>
-  <SectionDivider /><br/>
+  {/* <SectionDivider /> */}
+  <img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="180%"/>
+  <br/><br/><br/>
   <SectionTitle>Personal Accomplishments</SectionTitle>
   <Boxes>
     {data.map((card, index) =>(
