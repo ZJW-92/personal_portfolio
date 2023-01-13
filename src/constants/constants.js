@@ -31,8 +31,6 @@ export const projects = [
     id: 2,
   },
 
-
-
   {
     title: 'Keep Fit fitness application ',
     description: " A fitness training application that help you browse and workout 1000+ exercises and more.",
@@ -63,31 +61,53 @@ export const projects = [
     demo: 'https://memories-fullstackapp.netlify.app/',
     id: 5,
   },
+  
   {
     title: 'Robot Framework Automation exercise',
-    description:"Basic web automation testings using Selenium Library and Python in Robot Framework. It includes various test cases and connect the repository with Jenkins for CI. In Jenkins, implement basic Jenkins pipeline script and build and implement basic maven project, build and test. ",
+    description:"Basic web automation testing using Selenium Library and Python. It includes test cases, mouse actions, buttons and connects with Jenkins to implement basic pipeline script. ",
     image: '/images/2.png',
-    tags: ['Robot Framework', 'Pycharm', 'Selenium', 'Jenkins'],
+    tags: ['Robot Framework', 'Pycharm', 'Jenkins', 'Selenium'],
     visit: 'https://github.com/ZJW-92/RobotFramework_exercise',
     demo: 'https://github.com/ZJW-92/RobotFramework_exercise',
     id: 6,
   },
+  
   {
     title: 'Big data COVID-19 analysis',
-    description: "Big data analysis of COVID-19 epidemic worldwide through daily data which ranged from January 2020 to March 2021 from Johns Hopkins University. It visualizes how much and fast this epidemic spreads around the world. ",
-    image: '/images/3.png',
+    description:"Big data analysis of COVID-19 epidemic worldwide through daily data which ranged from January 2020 to March 2021 from Johns Hopkins University. It visualizes how much and fast this epidemic spreads around the world. ",
+    image: '/images/10.png',
     tags: ['Jupyter notebook', 'pandas', 'pyecharts'],
     visit: 'https://github.com/ZJW-92/bigData_COVID_Analysis',
     demo: 'https://github.com/ZJW-92/bigData_COVID_Analysis',
     id: 7,
   },
 
+  {
+    title: 'Virtual Self-driving Vehicle ',
+    description: 'A microservice that performs object detection for a virtual self-driving vehicle turning the steering wheel angle to avoid obstacles in front of it.',
+    image: '/images/9.png',
+    tags: ['C++', 'Git','Linux', 'Docker','OpenCV'],
+    visit: 'https://github.com/ZJW-92/DIT638-Cyber-Physical-Systems-and-Systems-of-Systems',
+    demo: 'https://github.com/ZJW-92/DIT638-Cyber-Physical-Systems-and-Systems-of-Systems',
+    id: 8,
+  },
+  
+  {
+    title: 'NeuroDrive Smart Car',
+    description: "A software that allows end users to remotely control a smart car with the use of an EEG-headset and a mobile app. Moreover, the smart car can avoid obstacles in front and behind it by turning to the opposite direction.",
+    image: '/images/3.png',
+    tags: ['C++', 'Java', 'Travis CI','Arduino','SmartCar shield'],
+    visit: 'https://github.com/ZJW-92/DIT112-V20-Miniprojekt-Systemutveckling/blob/main/README.md',
+    demo: 'https://www.youtube.com/watch?v=pvArIKRuUSM',
+    id: 9,
+  },
+  
 ];
 
 export const TimeLineData = [
   { year: 2019, text: 'Started my journey of Software Engineering and Management bachelor study', },
   { year: 2020, text: 'Finished my first web application with classmates', },
-  { year: 2021, text: 'Finished SFI and svenska som andrasspråk 1, 2 ', },
-  { year: 2022, text: 'Finished my bachelor study', },
-  { year: 2023, text: 'Seek new challenges in software industry in Sweden', },
+  { year: 2021, text: 'Finished my first embedded group project. Finished SFI and svenska som andraspråk 1, 2 ', },
+  { year: 2022, text: 'Finished my bachelor study with thesis in the research of DevOps performance and quality', },
+  { year: 2023, text: 'Seek new challenges in the software industry in Sweden', },
 ];

@@ -1,9 +1,9 @@
 import React, { useState, useRef, useEffect } from 'react';
 
 import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode } from './TimeLineStyles';
-import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
+import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { TimeLineData } from '../../constants/constants';
-import { Hr } from '../Projects/ProjectsStyles';
+
 
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
 
@@ -41,14 +41,19 @@ const Timeline = () => {
 
   return (
     <Section id="about">
-      <SectionDivider /><br/>
+      {/* <SectionDivider /> */}
+      <img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="180%"/>
+      <br/><br/><br/>
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-    I am active, like to cooperate in teamwork for a positive working environment with other colleagues. 
+    ⭑ I have great passion for software development and QA.
     <br/>
-    I am open to new ideas and like to listen to advice from experienced colleagues.
+    ⭑ I am careful, resistant to stress, self-motivated with a strong desire to learn new things and like to take my own initiative.
     <br/>
-    I am looking forward to new challenges and I am convinced that my competence and positive attitude are my biggest advantages. 
+    ⭑ I am active, like to cooperate in teamwork and open to new ideas and willing to listen to advice from colleagues.
+    <br/>
+    ⭑ I am seeking new challenges. My biggest advantages are my competence and positive attitude. 
+
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll} >
         <>

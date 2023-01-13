@@ -2,16 +2,18 @@ import React from 'react';
 import { BsTerminal } from 'react-icons/bs'
 import{FaReact ,FaDatabase, FaJenkins} from 'react-icons/fa'
 import {GiBrain} from 'react-icons/gi'
-import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
+import{ImEmbed2} from 'react-icons/im'
+import { Section,SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
 const Technologies = () =>  (
 
 <Section id="tech">
-  <SectionDivider/>
-  <br/>
+  {/* <SectionDivider/> */}
+  <img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="180%"/>
+  <br/><br/><br/>
   <SectionTitle> Technologies</SectionTitle>
-  <SectionText> I have great passion for software development.
+  <SectionText> ⭑ I have great passion for software development.
    Also, I am interested with Quality Assurance, Test Automation, DevOps, Machine Learning and Business Intelligence. 
    </SectionText>
    <List>
@@ -20,7 +22,7 @@ const Technologies = () =>  (
       <ListContainer>
         <ListTitle> Frontend  </ListTitle>
         <ListParagraph>
-         Html5, CSS, JavaScript, React.js, Bootstrap, Next.js, Material-UI, TailwindCSS, styled-components, Netlify
+         Html5, CSS, JavaScript, React.js, Bootstrap, Next.js, Material-UI, TailwindCSS, styled-components, Netlify, Vercel
         </ListParagraph>
       </ListContainer>
     </ListItem>
@@ -29,7 +31,7 @@ const Technologies = () =>  (
       <ListContainer>
         <ListTitle> Backend  </ListTitle>
         <ListParagraph>
-          Express.js, Node.js, npm, Django, mongodb, graphQL, hyGraph
+          Express.js, Node.js, npm, Django, Mongodb, GraphQL, HyGraph(GraphCMS)
         </ListParagraph>
       </ListContainer>
     </ListItem>
@@ -38,7 +40,7 @@ const Technologies = () =>  (
       <ListContainer>
         <ListTitle> Testing  </ListTitle>
         <ListParagraph>
-        Robot Framework, Selenium, Jenkins, Postman
+        Robot Framework, Jenkins, Selenium, CI/CD, Postman
         </ListParagraph>
       </ListContainer>
     </ListItem>
@@ -47,11 +49,20 @@ const Technologies = () =>  (
       <ListContainer>
         <ListTitle> Machine learning </ListTitle>
         <ListParagraph>
-          Python, Anaconda, Keras, Tensorflow, Pandas, Numpy, Tableau
+          Python, jupyter notebook, Anaconda, Keras, Tensorflow, Pandas, Numpy, Tableau
         </ListParagraph>
       </ListContainer>
     </ListItem>
-    <ListItem>  
+    <ListItem>
+      <ImEmbed2 size="4rem"/>
+      <ListContainer>
+        <ListTitle> Embedded</ListTitle>
+        <ListParagraph>
+          C, C++, Python, Pycharm
+        </ListParagraph>
+      </ListContainer>
+    </ListItem>
+    <ListItem>
       <BsTerminal size="4rem"></BsTerminal>
       <ListContainer>
         <ListTitle> Others</ListTitle>
