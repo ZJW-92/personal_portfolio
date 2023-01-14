@@ -13,8 +13,8 @@ const Technologies = () =>  (
   <img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="180%"/>
   <br/><br/><br/>
   <SectionTitle> Technologies</SectionTitle>
-  <SectionText> ⭑ I have great passion for software development.
-   Also, I am interested with Quality Assurance, Test Automation, DevOps, Machine Learning and Business Intelligence. 
+  <SectionText> ⭑ I have genuine passion for software development.
+   Also, I am interested with UI/UX Design, Quality Assurance, Test Automation, DevOps, Machine Learning and Business Intelligence. 
    </SectionText>
    <List>
     <ListItem>
@@ -22,7 +22,7 @@ const Technologies = () =>  (
       <ListContainer>
         <ListTitle> Frontend  </ListTitle>
         <ListParagraph>
-         Html5, CSS, JavaScript, React.js, Bootstrap, Next.js, Material-UI, TailwindCSS, styled-components, Netlify, Vercel
+         Html5, CSS, JavaScript, React.js, Bootstrap, Next.js, Material-UI, TailwindCSS, styled-components, Figma, Netlify, Vercel
         </ListParagraph>
       </ListContainer>
     </ListItem>

@@ -25,7 +25,7 @@ export const projects = [
     title: 'ModernApp application ',
     description: "ModernApp is a full-fledged, cool-designed landing page of showcasing one software company's webpage.",
     image: '/images/7.png',
-    tags: ['React.js', 'React-bootstrap', 'styled-components', 'React-icons'],
+    tags: ['Figma', 'React .js', 'React-bootstrap', 'styled-components',],
     visit: 'https://github.com/ZJW-92/modernApp',
     demo: 'https://modern-mobile-app.netlify.app/',
     id: 2,
@@ -45,7 +45,7 @@ export const projects = [
     title: 'Shanghai kitchen UI/UX application',
     description: "A modern and fully responsive UI/UX restaurant menu application with react-icons and CSS. ",
     image: '/images/0.png',
-    tags: ['React', 'React-icons', 'CSS'],
+    tags: ['Figma','React', 'React-icons', 'CSS'],
     visit: 'https://github.com/ZJW-92/Gourment_Shanghai_kitchen',
     demo: 'https://shanghai-kitchen.netlify.app/',
     id: 3,
@@ -106,8 +106,8 @@ export const projects = [
 
 export const TimeLineData = [
   { year: 2019, text: 'Started my journey of Software Engineering and Management bachelor study', },
-  { year: 2020, text: 'Finished my first web application with classmates', },
-  { year: 2021, text: 'Finished my first embedded group project. Finished SFI and svenska som andraspråk 1, 2 ', },
+  { year: 2020, text: 'Finished my first web application with teammates', },
+  { year: 2021, text: 'Finished SFI and svenska som andraspråk 1, 2 ', },
   { year: 2022, text: 'Finished my bachelor study with thesis in the research of DevOps performance and quality', },
   { year: 2023, text: 'Seek new challenges in the software industry in Sweden', },
 ];
