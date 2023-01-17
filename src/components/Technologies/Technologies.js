@@ -22,7 +22,7 @@ const Technologies = () =>  (
       <ListContainer>
         <ListTitle> Frontend  </ListTitle>
         <ListParagraph>
-         Html5, CSS, JavaScript, React.js, Bootstrap, Next.js, Material-UI, TailwindCSS, styled-components, Figma, Netlify, Vercel
+         Html5, CSS, JavaScript, React.js, Bootstrap, Next.js, Material-UI, TailwindCSS, styled-components, Vite ,Figma, Netlify, Vercel
         </ListParagraph>
       </ListContainer>
     </ListItem>
@@ -31,7 +31,7 @@ const Technologies = () =>  (
       <ListContainer>
         <ListTitle> Backend  </ListTitle>
         <ListParagraph>
-          Express.js, Node.js, npm, Django, Mongodb, GraphQL, HyGraph(GraphCMS)
+          Express.js, Node.js, npm, Django, Mongodb, GraphQL, HyGraph(GraphCMS), Render
         </ListParagraph>
       </ListContainer>
     </ListItem>

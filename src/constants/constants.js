@@ -1,12 +1,12 @@
 export const projects = [
   
   {
-    title: 'Portfolio website ',
-    description: " My portfolio of my resume of introducing myself, my background, projects and technologies I have learned and used in the past 2022.",
-    image: '/images/5.png',
-    tags: ['React.js', 'Next.js', 'React-icons', 'styled components'],
-    visit: 'https://github.com/ZJW-92/personal_portfolio',
-    demo: 'https://zhijiewei.netlify.app/',
+    title: 'ChatGPT OpenAI ',
+    description: "A language model chatbot developed by OpenAI based on GPT 3.5. Users can interact with bot, write, debug code and explain almost everything.",
+    image: '/images/11.png',
+    tags: ['Node.js', , 'OpenAIApi', 'CSS', 'Vite', 'JavaScript', 'Vercel'],
+    visit: 'https://github.com/ZJW-92/chatgpt_openai',
+    demo: 'https://chatgpt-openai.vercel.app/',
     id: 0,
   },
   
@@ -14,12 +14,21 @@ export const projects = [
     title: 'Optimal Recipe Blog',
     description: "A Content Management System (CMS) of showcasing different kinds of Asian cuisine with full markdown recipes, author information and comments.",
     image: '/images/8.png',
-    tags: ['React.js', 'Next.js', 'graphQL', 'TailwindCSS','Versel'],
+    tags: ['React.js', 'Next.js', 'graphQL', 'TailwindCSS','Vercel'],
     visit: 'https://github.com/ZJW-92/cms_blog_app',
     demo: 'https://optimal-recipe-blog.vercel.app/',
     id: 1,
   },
 
+  {
+    title: 'Portfolio website ',
+    description: " My portfolio of my resume of introducing myself, my background, projects and technologies I have learned and used in the past 2022.",
+    image: '/images/5.png',
+    tags: ['React.js', 'Next.js', 'React-icons', 'styled components'],
+    visit: 'https://github.com/ZJW-92/personal_portfolio',
+    demo: 'https://zhijiewei.netlify.app/',
+    id: 2,
+  },
 
   {
     title: 'ModernApp application ',
@@ -28,7 +37,7 @@ export const projects = [
     tags: ['Figma', 'React .js', 'React-bootstrap', 'styled-components',],
     visit: 'https://github.com/ZJW-92/modernApp',
     demo: 'https://modern-mobile-app.netlify.app/',
-    id: 2,
+    id: 3,
   },
 
   {
@@ -38,7 +47,7 @@ export const projects = [
     tags: ['React.js', 'React-icons', 'material-UI', 'Rapid API'],
     visit: 'https://github.com/ZJW-92/keep_fit_fitness_app',
     demo: 'https://keepfit-fitness.netlify.app/',
-    id: 3,
+    id: 4,
   },
 
   {
@@ -48,8 +57,7 @@ export const projects = [
     tags: ['Figma','React', 'React-icons', 'CSS'],
     visit: 'https://github.com/ZJW-92/Gourment_Shanghai_kitchen',
     demo: 'https://shanghai-kitchen.netlify.app/',
-    id: 3,
-    id: 4,
+    id: 5,
   },
 
   {
@@ -59,7 +67,7 @@ export const projects = [
     tags: ['Mongodb', 'Express', 'React', 'Node.js'],
     visit: 'https://github.com/ZJW-92/FullStack_project',
     demo: 'https://memories-fullstackapp.netlify.app/',
-    id: 5,
+    id: 6,
   },
   
   {
@@ -69,7 +77,7 @@ export const projects = [
     tags: ['Robot Framework', 'Pycharm', 'Jenkins', 'Selenium'],
     visit: 'https://github.com/ZJW-92/RobotFramework_exercise',
     demo: 'https://github.com/ZJW-92/RobotFramework_exercise',
-    id: 6,
+    id: 7,
   },
   
   {
@@ -79,7 +87,7 @@ export const projects = [
     tags: ['Jupyter notebook', 'pandas', 'pyecharts'],
     visit: 'https://github.com/ZJW-92/bigData_COVID_Analysis',
     demo: 'https://github.com/ZJW-92/bigData_COVID_Analysis',
-    id: 7,
+    id: 8,
   },
 
   {
@@ -89,7 +97,7 @@ export const projects = [
     tags: ['C++', 'Git','Linux', 'Docker','OpenCV'],
     visit: 'https://github.com/ZJW-92/DIT638-Cyber-Physical-Systems-and-Systems-of-Systems',
     demo: 'https://github.com/ZJW-92/DIT638-Cyber-Physical-Systems-and-Systems-of-Systems',
-    id: 8,
+    id: 9,
   },
   
   {
@@ -99,7 +107,7 @@ export const projects = [
     tags: ['C++', 'Java', 'Travis CI','Arduino','SmartCar shield'],
     visit: 'https://github.com/ZJW-92/DIT112-V20-Miniprojekt-Systemutveckling/blob/main/README.md',
     demo: 'https://www.youtube.com/watch?v=pvArIKRuUSM',
-    id: 9,
+    id: 10,
   },
   
 ];
