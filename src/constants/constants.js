@@ -2,7 +2,7 @@ export const projects = [
   
   {
     title: 'ChatGPT OpenAI ',
-    description: "A language model chatbot developed by OpenAI based on GPT 3.5. Users can interact with bot, write, debug code and explain almost everything.",
+    description: "A language model chatbot developed by OpenAI based on GPT 3.5. Users can interact with bot, require chatbot to write, debug code and explain almost everything.",
     image: '/images/11.png',
     tags: ['Node.js', , 'OpenAIApi', 'CSS', 'Vite', 'JavaScript', 'Vercel'],
     visit: 'https://github.com/ZJW-92/chatgpt_openai',
