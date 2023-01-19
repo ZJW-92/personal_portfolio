@@ -45,7 +45,7 @@ export const projects = [
     title: 'Virtual Self-driving Vehicle ',
     description: 'A microservice that performs object detection for a virtual self-driving vehicle turning the steering wheel angle to avoid obstacles in front of it.',
     image: '/images/9.png',
-    tags: ['C++', 'Git','Linux', 'Docker','OpenCV'],
+    tags: ['C++', 'Git','VMware', 'Docker','OpenCV'],
     visit: 'https://github.com/ZJW-92/DIT638-Cyber-Physical-Systems-and-Systems-of-Systems',
     demo: 'https://github.com/ZJW-92/DIT638-Cyber-Physical-Systems-and-Systems-of-Systems',
     id: 4,
