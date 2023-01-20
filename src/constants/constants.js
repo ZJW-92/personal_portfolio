@@ -105,8 +105,8 @@ export const projects = [
   },
 
   {
-    title: 'Portfolio website ',
-    description: " My portfolio of my resume of introducing myself, my background, projects and technologies I have learned and used in the past 2022.",
+    title: 'Portfolio Version 1 ',
+    description: "First version of my portfolio of introducing myself, my background, projects and technologies I have used in the past year 2022 and 2023.",
     image: '/images/5.png',
     tags: ['React.js', 'Next.js', 'React-icons', 'styled components'],
     visit: 'https://github.com/ZJW-92/personal_portfolio',
@@ -114,6 +114,16 @@ export const projects = [
     id: 10,
   },
   
+  {
+    title: 'Portfolio Version 2 ',
+    description: "Second version of my portfolio of introducing myself, my background, projects and technologies I have used in the past year 2022 and 2023 currently.",
+    image: '/images/12.png',
+    tags: ['React.js', 'React-icons', 'React-bootstrap', 'LottieFiles'],
+    visit: 'https://github.com/ZJW-92/portfolio_v2',
+    demo: 'https://zhijiewei.vercel.app/',
+    id: 11,
+  },
+
 ];
 
 export const TimeLineData = [
