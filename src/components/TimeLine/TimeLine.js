@@ -46,14 +46,14 @@ const Timeline = () => {
       <br/><br/><br/>
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-    ⭑ I have great passion for software development and UI/UX design.
-    <br/>
+      ⭑ I have genuine passion for User Requirements and Software Engineering.
+   Also, I am interested with Quality Assurance, Test Automation, DevOps and Machine Learning. 
+    <br/> 
     ⭑ I am careful, resistant to stress, self-motivated with a strong desire to learn new things and like to take my own initiative.
     <br/>
-    ⭑ I am active, like to cooperate in teamwork and open to new ideas and willing to listen to advice from colleagues.
+    ⭑ I am active, like to cooperate in teamwork and open to new ideas and willing to listen to advice.
     <br/>
-    ⭑ I am seeking new challenges in the software industry in Sweden. My biggest advantages are my competence and positive attitude. 
-
+    ⭑  My biggest advantages are my competence and positive attitude. 
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll} >
         <>

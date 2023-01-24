@@ -13,9 +13,6 @@ const Technologies = () =>  (
   <img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="180%"/>
   <br/><br/><br/>
   <SectionTitle> Technologies</SectionTitle>
-  <SectionText> ⭑ I have genuine passion for software engineering and development.
-   Also, I am interested with Quality Assurance, Test Automation, DevOps, Machine Learning and Business Intelligence. 
-   </SectionText>
    <List>
     <ListItem>
       <FaReact size="4rem"></FaReact>
