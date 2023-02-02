@@ -1,13 +1,24 @@
 export const projects = [
   
   {
+    title: 'Web3 Blockchain Social Media App',
+    description: "A decentralized social media application that you have your account but not privately owned but rather your account is saved in the public blockchain away from private ownership.",
+    image: '/images/13.png',
+    tags: ['React.js', 'Lens Protocol', 'Chakra UI', 'Ethers','graphQL'],
+    visit: 'https://github.com/ZJW-92/web3_blockchain_app',
+    demo: 'https://blockchain-social-media.netlify.app/',
+    id: 0,
+  },
+
+
+  {
     title: 'ChatGPT OpenAI ',
     description: "A language model chatbot developed by OpenAI based on GPT 3.5. Users can interact with bot, require chatbot to write, debug code and explain almost everything.",
     image: '/images/11.png',
     tags: ['Node.js', , 'OpenAIApi', 'CSS', 'Vite', 'JavaScript', 'Vercel'],
     visit: 'https://github.com/ZJW-92/chatgpt_openai',
     demo: 'https://chatgpt-openai.vercel.app/',
-    id: 0,
+    id: 1,
   },
   
   {
@@ -17,7 +28,7 @@ export const projects = [
     tags: ['React.js', 'Next.js', 'graphQL', 'TailwindCSS','Vercel'],
     visit: 'https://github.com/ZJW-92/cms_blog_app',
     demo: 'https://optimal-recipe-blog.vercel.app/',
-    id: 1,
+    id: 2,
   },
 
   {
@@ -27,7 +38,7 @@ export const projects = [
     tags: ['Mongodb', 'Express', 'React', 'Node.js'],
     visit: 'https://github.com/ZJW-92/FullStack_project',
     demo: 'https://memories-fullstackapp.netlify.app/',
-    id: 2,
+    id: 3,
   },
 
   {
@@ -37,7 +48,7 @@ export const projects = [
     tags: ['Robot Framework', 'Pycharm', 'Jenkins', 'Selenium'],
     visit: 'https://github.com/ZJW-92/RobotFramework_exercise',
     demo: 'https://github.com/ZJW-92/RobotFramework_exercise',
-    id: 3,
+    id: 4,
   },
 
 
@@ -48,7 +59,7 @@ export const projects = [
     tags: ['C++', 'Git','VMware', 'Docker','OpenCV'],
     visit: 'https://github.com/ZJW-92/DIT638-Cyber-Physical-Systems-and-Systems-of-Systems',
     demo: 'https://github.com/ZJW-92/DIT638-Cyber-Physical-Systems-and-Systems-of-Systems',
-    id: 4,
+    id: 5,
   },
   
   {
@@ -58,7 +69,7 @@ export const projects = [
     tags: ['C++', 'Java', 'Travis CI','Arduino','SmartCar shield'],
     visit: 'https://github.com/ZJW-92/DIT112-V20-Miniprojekt-Systemutveckling/blob/main/README.md',
     demo: 'https://www.youtube.com/watch?v=pvArIKRuUSM',
-    id: 5,
+    id: 6,
   },
 
   {
@@ -68,17 +79,6 @@ export const projects = [
     tags: ['React.js', 'React-icons', 'material-UI', 'Rapid API'],
     visit: 'https://github.com/ZJW-92/keep_fit_fitness_app',
     demo: 'https://keepfit-fitness.netlify.app/',
-    id: 6,
-  },
-
-
-  {
-    title: 'ModernApp application ',
-    description: "ModernApp is a full-fledged, cool-designed landing page of showcasing one software company's webpage.",
-    image: '/images/7.png',
-    tags: ['Figma', 'React .js', 'React-bootstrap', 'styled-components',],
-    visit: 'https://github.com/ZJW-92/modernApp',
-    demo: 'https://modern-mobile-app.netlify.app/',
     id: 7,
   },
 
@@ -93,7 +93,6 @@ export const projects = [
     id: 8,
   },
 
-  
   {
     title: 'Big data COVID-19 analysis',
     description:"Big data analysis of COVID-19 epidemic worldwide through daily data which ranged from January 2020 to March 2021 from Johns Hopkins University. It visualizes how much and fast this epidemic spreads around the world. ",
