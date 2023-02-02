@@ -61,6 +61,7 @@ export const ListContainer = styled.div`
 `
 
 export const ListTitle = styled.h4`
+  font-family: pacifico;
   font-weight: 700;
   font-size: 28px;
   line-height: 32px;
