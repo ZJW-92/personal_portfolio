@@ -1,5 +1,11 @@
 import styled from 'styled-components';
 
+
+export const Span = styled.span`
+  font-family: pacifico;
+
+`;
+
 export const LeftSection = styled.div`
   width: 100%;
   @media ${(props) => props.theme.breakpoints.sm} {
