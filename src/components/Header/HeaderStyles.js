@@ -18,6 +18,7 @@ export const Container = styled.div`
 `;
 
 export const Span = styled.span`
+  font-family: liu jian mao cao;
   font-size: 3rem; 
 `;
 
@@ -54,6 +55,7 @@ export const Div3 = styled.div`
 
 // Navigation Links
 export const NavLink = styled.a`
+  font-family: pacifico;
   font-size: 2.5rem;
   margin: 1rem 2rem;
   line-height: 32px;
