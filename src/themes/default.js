@@ -2,7 +2,7 @@ export default {
   // Temp fonts
   fonts: {
     title: "Space Grotesk, sans-serif",
-    main: "Space Grotesk, sans-serif" 
+    main: "Maven Pro, sans-serif" 
   },
   // Colors for layout
   colors: {
