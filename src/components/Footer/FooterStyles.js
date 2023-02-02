@@ -14,10 +14,12 @@ export const FooterWrapper = styled.section`
   }
 `
 export const Span = styled.span`
+  font-family: liu jian mao cao;
   font-size: 3rem; 
 `;
 
 export const LinkItem = styled.a`
+  font-family: pacifico;
 	font-size: 2rem;
 	line-height: 30px;
 	color: #e6c18f;
