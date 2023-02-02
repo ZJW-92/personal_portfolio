@@ -9,7 +9,7 @@ const Footer = () => {
     <LinkList>
     <Link href="/">
       <a style ={ { display:"flex", alignItems:"center", color:"#e6c18f", marginBottom:'20px'}}>
-      <GiDwarfFace size= "4rem" /><Span>Zhijie</Span>
+      <GiDwarfFace size= "4rem" /><Span>志杰</Span>
       </a>
     </Link>
     <LinkColumn>  
