@@ -33,7 +33,7 @@ export default class MyDocument extends Document {
         <Head>
           <link href="https://fonts.googleapis.com/css2?family=Liu+Jian+Mao+Cao&family=Maven+Pro&family=Pacifico&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"rel="stylesheet"/>
           <title>Zhijie's Portfolio</title>
-          <link rel="icon" href="../../public/favicon.ico" />
+          <link rel="icon" href="../../public/favicon.png" />
         </Head>
         <body>
           <Main />
