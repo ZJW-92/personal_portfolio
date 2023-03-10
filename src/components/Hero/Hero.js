@@ -11,11 +11,11 @@ const Hero = (props) => (
      <img src="https://media2.giphy.com/media/ZGHpWzdOEkMKtwLqdc/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="60" />
     </SectionTitle>
     <SectionText>  
-    ⭑ Born in Shanghai (上海), China🇨🇳 and study in Gothenburg, Sweden🇸🇪. <br/>
+    ⭑ Born in Shanghai, China🇨🇳 and studied in Gothenburg, Sweden🇸🇪. <br/>
     ⭑ I am a Software Engineering and Management graduate at University of Gothenburg in 2022. <br/>
-    ⭑ Currently I am seeking a job of Product Engineer/ Software Engineer / Developer. 
+    ⭑ Currently I am seeking a job of Software Engineer, Web Developer, QA Engineer or Data Analyst. 
     </SectionText>
-    <Button onClick={() => window.location.href="mailto:zjwei0201@gmail.com"}> Get In Touch ☕️ </Button>
+    <Button onClick={() => window.location.href="mailto:zjwei0201@gmail.com"}> Get In Touch </Button>
     </LeftSection>
   </Section>
 );

@@ -1,5 +1,16 @@
 export const projects = [
-  
+ 
+  {
+    title: 'Facial Emotion Detection',
+    description: "A task of recognizing a person's emotional state among angry, disgust, fear, happy, neutral, sad and surprise using CNN deep learning technology.",
+    image: '/images/14.png',
+    tags: ['Keras', 'Tensorflow', 'OpenCV', 'CNN'],
+    visit: 'https://github.com/ZJW-92/facial_emotion_detection',
+    demo: 'https://github.com/ZJW-92/facial_emotion_detection/blob/main/README.md#visualization',
+    id: 0,
+  },
+
+
   {
     title: 'Web3 Blockchain Social Media App',
     description: "A decentralized social media application that you have your account but not privately owned but rather your account is saved in the public blockchain away from private ownership.",
@@ -7,7 +18,7 @@ export const projects = [
     tags: ['React.js', 'Lens Protocol', 'Chakra UI', 'Ethers','graphQL'],
     visit: 'https://github.com/ZJW-92/web3_blockchain_app',
     demo: 'https://blockchain-social-media.netlify.app/',
-    id: 0,
+    id: 1,
   },
 
 
@@ -18,7 +29,7 @@ export const projects = [
     tags: ['Node.js', , 'OpenAIApi', 'CSS', 'Vite', 'JavaScript', 'Vercel'],
     visit: 'https://github.com/ZJW-92/chatgpt_openai',
     demo: 'https://chatgpt-openai.vercel.app/',
-    id: 1,
+    id: 2,
   },
   
   {
@@ -28,7 +39,7 @@ export const projects = [
     tags: ['React.js', 'Next.js', 'graphQL', 'TailwindCSS','Vercel'],
     visit: 'https://github.com/ZJW-92/cms_blog_app',
     demo: 'https://optimal-recipe-blog.vercel.app/',
-    id: 2,
+    id: 3,
   },
 
   {
@@ -38,7 +49,7 @@ export const projects = [
     tags: ['Mongodb', 'Express', 'React', 'Node.js'],
     visit: 'https://github.com/ZJW-92/FullStack_project',
     demo: 'https://memories-fullstackapp.netlify.app/',
-    id: 3,
+    id: 4,
   },
 
   {
@@ -48,7 +59,7 @@ export const projects = [
     tags: ['Robot Framework', 'Pycharm', 'Jenkins', 'Selenium'],
     visit: 'https://github.com/ZJW-92/RobotFramework_exercise',
     demo: 'https://github.com/ZJW-92/RobotFramework_exercise',
-    id: 4,
+    id: 5,
   },
 
 
@@ -59,7 +70,7 @@ export const projects = [
     tags: ['C++', 'Git','VMware', 'Docker','OpenCV'],
     visit: 'https://github.com/ZJW-92/DIT638-Cyber-Physical-Systems-and-Systems-of-Systems',
     demo: 'https://github.com/ZJW-92/DIT638-Cyber-Physical-Systems-and-Systems-of-Systems',
-    id: 5,
+    id: 6,
   },
   
   {
@@ -69,7 +80,7 @@ export const projects = [
     tags: ['C++', 'Java', 'Travis CI','Arduino','SmartCar shield'],
     visit: 'https://github.com/ZJW-92/DIT112-V20-Miniprojekt-Systemutveckling/blob/main/README.md',
     demo: 'https://www.youtube.com/watch?v=pvArIKRuUSM',
-    id: 6,
+    id: 7,
   },
 
   {
@@ -79,17 +90,6 @@ export const projects = [
     tags: ['React.js', 'React-icons', 'material-UI', 'Rapid API'],
     visit: 'https://github.com/ZJW-92/keep_fit_fitness_app',
     demo: 'https://keepfit-fitness.netlify.app/',
-    id: 7,
-  },
-
-
-  {
-    title: 'Shanghai kitchen UI/UX application',
-    description: "A modern and fully responsive UI/UX restaurant menu application with react-icons and CSS. ",
-    image: '/images/0.png',
-    tags: ['Figma','React', 'React-icons', 'CSS'],
-    visit: 'https://github.com/ZJW-92/Gourment_Shanghai_kitchen',
-    demo: 'https://shanghai-kitchen.netlify.app/',
     id: 8,
   },
 
@@ -99,20 +99,11 @@ export const projects = [
     image: '/images/10.png',
     tags: ['Jupyter notebook', 'pandas', 'pyecharts'],
     visit: 'https://github.com/ZJW-92/bigData_COVID_Analysis',
-    demo: 'https://github.com/ZJW-92/bigData_COVID_Analysis',
+    demo: 'https://github.com/ZJW-92/bigData_COVID_Analysis/blob/main/README.md#visualization',
     id: 9,
   },
 
-  {
-    title: 'Portfolio Version 1 ',
-    description: "First version of my portfolio of introducing myself, my background, projects and technologies I have used in the past year 2022 and 2023.",
-    image: '/images/5.png',
-    tags: ['React.js', 'Next.js', 'React-icons', 'styled components'],
-    visit: 'https://github.com/ZJW-92/personal_portfolio',
-    demo: 'https://zhijiewei.netlify.app/',
-    id: 10,
-  },
-  
+
   {
     title: 'Portfolio Version 2 ',
     description: "Second version of my portfolio of introducing myself, my background, projects and technologies I have used in the past year 2022 and 2023 currently.",
@@ -120,7 +111,7 @@ export const projects = [
     tags: ['React.js', 'React-icons', 'React-bootstrap', 'LottieFiles'],
     visit: 'https://github.com/ZJW-92/portfolio_v2',
     demo: 'https://zhijiewei.vercel.app/',
-    id: 11,
+    id: 10,
   },
 
 ];

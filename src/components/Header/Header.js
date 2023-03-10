@@ -4,6 +4,7 @@ import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 import { GiDwarfFace } from 'react-icons/gi';
 import { SiGmail } from 'react-icons/si';
 import { Container, Span, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
+import {AiFillStar, AiOutlineHome, AiOutlineFundProjectionScreen,AiOutlineUser} from "react-icons/ai";
 
 const Header = () =>  (
  <Container>
