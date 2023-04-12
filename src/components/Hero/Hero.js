@@ -13,7 +13,7 @@ const Hero = (props) => (
     <SectionText>  
     ⭑ Born in Shanghai, China🇨🇳 and studied in Gothenburg, Sweden🇸🇪. <br/>
     ⭑ I am a Software Engineering and Management graduate at University of Gothenburg in 2022. <br/>
-    ⭑ Currently I am seeking a job of Software Engineer, Web Developer, QA Engineer or Data Analyst. 
+    ⭑ Currently I am seeking a job as a Matlab/Simulink/ Image processing/ Computer Vision Engineer. 
     </SectionText>
     <Button onClick={() => window.location.href="mailto:zjwei0201@gmail.com"}> Get In Touch </Button>
     </LeftSection>

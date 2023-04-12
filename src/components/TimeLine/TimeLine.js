@@ -46,14 +46,12 @@ const Timeline = () => {
       <br/><br/><br/>
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      ⭑ I have genuine passion for Software Engineering, Data Science, Machine Learning.
-    Also, I am interested with Consulting, Cyber Security, Quality Assurance, Test Automation and DevOps. 
+      ⭑ I have genuine passion for data analysis, machine learning, image processing, computer vision, simulations and embedded systems. 
     <br/> 
     ⭑ I am careful, resistant to stress, self-motivated with a strong desire to learn new things and like to take my own initiative.
     <br/>
     ⭑ I am active, like to cooperate in teamwork and open to new ideas and willing to listen to advice.
     <br/>
-    ⭑  My biggest advantages are my competence and positive attitude. 
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll} >
         <>

@@ -32,37 +32,7 @@ export const projects = [
     id: 2,
   },
   
-  {
-    title: 'Optimal Recipe Blog',
-    description: "A Content Management System (CMS) of showcasing different kinds of Asian cuisine with full markdown recipes, author information and comments.",
-    image: '/images/8.png',
-    tags: ['React.js', 'Next.js', 'graphQL', 'TailwindCSS','Vercel'],
-    visit: 'https://github.com/ZJW-92/cms_blog_app',
-    demo: 'https://optimal-recipe-blog.vercel.app/',
-    id: 3,
-  },
-
-  {
-    title: 'Full-stack MERN project',
-    description: "A fullstack MERN application combined with Mongodb, ExpressJS, React and Node.js application to post a memory, edit, delete and count thumb up button.",
-    image: '/images/1.png',
-    tags: ['Mongodb', 'Express', 'React', 'Node.js'],
-    visit: 'https://github.com/ZJW-92/FullStack_project',
-    demo: 'https://memories-fullstackapp.netlify.app/',
-    id: 4,
-  },
-
-  {
-    title: 'Robot Framework Automation exercise',
-    description:"Basic web automation testing using Selenium Library and Python. It includes test cases, mouse actions, buttons and connects with Jenkins to implement basic pipeline script. ",
-    image: '/images/2.png',
-    tags: ['Robot Framework', 'Pycharm', 'Jenkins', 'Selenium'],
-    visit: 'https://github.com/ZJW-92/RobotFramework_exercise',
-    demo: 'https://github.com/ZJW-92/RobotFramework_exercise',
-    id: 5,
-  },
-
-
+  
   {
     title: 'Virtual Self-driving Vehicle ',
     description: 'A microservice that performs object detection for a virtual self-driving vehicle turning the steering wheel angle to avoid obstacles in front of it.',
@@ -83,15 +53,6 @@ export const projects = [
     id: 7,
   },
 
-  {
-    title: 'Keep Fit fitness application ',
-    description: " A fitness training application that help you browse and workout 1000+ exercises and more.",
-    image: '/images/6.png',
-    tags: ['React.js', 'React-icons', 'material-UI', 'Rapid API'],
-    visit: 'https://github.com/ZJW-92/keep_fit_fitness_app',
-    demo: 'https://keepfit-fitness.netlify.app/',
-    id: 8,
-  },
 
   {
     title: 'Big data COVID-19 analysis',
@@ -103,16 +64,6 @@ export const projects = [
     id: 9,
   },
 
-
-  {
-    title: 'Portfolio Version 2 ',
-    description: "Second version of my portfolio of introducing myself, my background, projects and technologies I have used in the past year 2022 and 2023 currently.",
-    image: '/images/12.png',
-    tags: ['React.js', 'React-icons', 'React-bootstrap', 'LottieFiles'],
-    visit: 'https://github.com/ZJW-92/portfolio_v2',
-    demo: 'https://zhijiewei.vercel.app/',
-    id: 10,
-  },
 
 ];
 

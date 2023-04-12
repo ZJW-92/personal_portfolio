@@ -19,7 +19,7 @@ const Technologies = () =>  (
       <ListContainer>
         <ListTitle> Frontend  </ListTitle>
         <ListParagraph>
-         Html5, CSS, JavaScript, React.js, Bootstrap, Next.js, Material-UI, TailwindCSS, styled-components, Vite ,Figma, Netlify, Vercel
+         Html5, CSS, JavaScript, React.js, Bootstrap, Next.js, Material-UI, TailwindCSS, styled-components, Vite
         </ListParagraph>
       </ListContainer>
     </ListItem>
@@ -28,43 +28,34 @@ const Technologies = () =>  (
       <ListContainer>
         <ListTitle> Backend  </ListTitle>
         <ListParagraph>
-          Express.js, Node.js, npm, Django, Mongodb, GraphQL, HyGraph(GraphCMS), Render
+          Express.js, Node.js, npm, Django, Mongodb
         </ListParagraph>
       </ListContainer>
     </ListItem>
-    <ListItem>  
-      <FaJenkins size="4rem"></FaJenkins>
-      <ListContainer>
-        <ListTitle> Testing  </ListTitle>
-        <ListParagraph>
-        Robot Framework, Jenkins, Selenium, CI/CD, Postman
-        </ListParagraph>
-      </ListContainer>
-    </ListItem>
+   
     <ListItem>  
       <GiBrain size="4rem"></GiBrain>
       <ListContainer>
-        <ListTitle> Machine learning </ListTitle>
+        <ListTitle> Machine Learning </ListTitle>
         <ListParagraph>
-          Python, jupyter notebook, Anaconda, Keras, Tensorflow, Pandas, Numpy, Tableau
+          Python, Anaconda, Keras, Tensorflow, Pandas
         </ListParagraph>
       </ListContainer>
     </ListItem>
     <ListItem>
       <ImEmbed2 size="4rem"/>
       <ListContainer>
-        <ListTitle> Embedded</ListTitle>
+        <ListTitle> Matlab/Simulink</ListTitle>
         <ListParagraph>
-          C, C++, Python, Pycharm
+      
         </ListParagraph>
       </ListContainer>
     </ListItem>
     <ListItem>
       <BsTerminal size="4rem"></BsTerminal>
       <ListContainer>
-        <ListTitle> Others</ListTitle>
+        <ListTitle>Image processing & Computer Vision</ListTitle>
         <ListParagraph>
-          Git, VmWare, Linux
         </ListParagraph>
       </ListContainer>
     </ListItem>
